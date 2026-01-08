@@ -11,6 +11,8 @@
     width: 100%;
     max-width: 1360px;
     margin: 0 auto;
+    /* padding-left: 20px;
+    padding-right: 20px; */
 }
 /* navbar styles start here */
 header{
@@ -39,7 +41,7 @@ nav {
 .nav-menu a:hover {
     color: #469165;
 }
-.button-wrapper button {
+.primary-btn {
     font-family: inter;
     font-size: 16px;
     font-weight: 600;
@@ -52,6 +54,96 @@ nav {
     border-radius: 4px;
     cursor: pointer;
 }
-.button-wrapper button:hover {
+.primary-btn:hover {
     background-color: #367b50;
+}
+/* navbar styles end here */
+/* hero section styles start here */
+.hero-section {
+    background-image: url('./assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-container {
+    padding: 115px 0 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-text-wrapper{
+    max-width: 770px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.badge img {
+    width: 16px;
+    height: 16px;
+    vertical-align: top;
+    margin-top: 1px;
+    margin-right: 2px;
+}
+.badge {
+    background-color: #FFFFFF;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+.hero-text-wrapper h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.hero-text-wrapper h1 span {
+    color: #30B868;
+}
+.hero-text-wrapper p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.hero-btn-group {
+    display: flex;
+    gap: 16px;
+}
+.primary-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.secondary-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    padding: 12px 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.secondary-btn:hover {
+    background-color: #469165;
+    border: 1px solid #469165;
+}
+.play-icon {
+    width: 16px;
+    height: auto;
 }
