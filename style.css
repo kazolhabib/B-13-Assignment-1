@@ -215,3 +215,55 @@ nav {
     text-align: center;
 }
 /* notes section styles end here */
+/* Solution section styles start here */
+.section-solution {
+    padding: 80px 0 80px;
+} 
+.solution-container {
+    display: flex;
+    gap: 60px;
+}
+.solution-image-block {
+    width: 100%;
+    max-width: 600px;
+}
+.solution-text-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+.solution-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.solution-text-wrapper h3 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #469165;
+    text-transform: uppercase;
+}
+.solution-text-wrapper h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    text-transform: capitalize;
+}
+.solution-text-wrapper p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+}
+.solution-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.solution-list-item {
+    display: flex;
+    gap: 6px;
+}
+/* solution section styles end here */
