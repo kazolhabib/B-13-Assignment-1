@@ -216,7 +216,7 @@ nav {
 }
 /* notes section styles end here */
 /* Solution section styles start here */
-.section-solution {
+.solution-section {
     padding: 80px 0 80px;
 } 
 .solution-container {
@@ -267,3 +267,41 @@ nav {
     gap: 6px;
 }
 /* solution section styles end here */
+/* cta section styles start here */
+.cta-section {
+    padding-top: 0;
+    padding-bottom: 120px;
+}
+.cta-container {
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+}
+.cta-container h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #001931;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.cta-container p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #627382;
+}
+.cta-btn-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+/* cta section styles end here */
+/* footer styles start here */
